@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# theme-picker
 
-## Getting Started
+Open-source CSS-based theme picker that lets you integrate theme switching into any web project with ease.
 
-First, run the development server:
+## 🚀 Overview
+theme-picker gives developers a clean and simple way to add theme selection to their websites or apps. It uses plain CSS themes and lightweight JavaScript logic so you can plug it into any stack.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 📂 Folder Structure
+```
+/
+├── app/
+├── components/
+├── docs/
+├── lib/
+├── public/
+├── themes/
+├── types/
+├── package.json
+├── tsconfig.json
+├── postcss.config.mjs
+├── next.config.ts
+├── eslint.config.mjs
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💡 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Install dependencies
+```
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Run dev server
+```
+npm run dev
+```
 
-## Learn More
+### Use theme picker
+```js
+import { applyTheme } from 'theme-picker/lib';
 
-To learn more about Next.js, take a look at the following resources:
+import 'theme-picker/themes/dark.css';
+import 'theme-picker/themes/light.css';
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+applyTheme('light'); // or 'dark'
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎯 Features
+- Easy runtime theme switching
+- CSS-based themes
+- Works with any JS framework
+- Extendable theme system
+- Light and clean structure
 
-## Deploy on Vercel
+## 🛠️ Contributing
+Pull requests and issues are welcome.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+This project is open-source and free to use.
