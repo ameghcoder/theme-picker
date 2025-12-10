@@ -1,0 +1,121 @@
+[data-theme="dark-luxury"][data-mode="light"] {
+    --color-radius: 0.625rem;
+
+    /* Soft ivory luxury base */
+    --color-background: oklch(0.98 0 0);
+    --color-foreground: oklch(0.22 0 0);
+
+    /* Elevated smooth surfaces */
+    --color-card: oklch(0.99 0 0);
+    --color-card-foreground: oklch(0.20 0 0);
+
+    --color-popover: oklch(0.99 0 0);
+    --color-popover-foreground: oklch(0.20 0 0);
+
+    /* Champagne gold primary (luxury but calm) */
+    --color-primary: oklch(0.82 0.12 85);
+    --color-primary-foreground: oklch(0.16 0 0);
+
+    /* Soft warm gray secondary */
+    --color-secondary: oklch(0.90 0 0);
+    --color-secondary-foreground: oklch(0.24 0 0);
+
+    /* Muted champagne-gray neutral */
+    --color-muted: oklch(0.94 0 0);
+    --color-muted-foreground: oklch(0.55 0 0);
+
+    /* Gold accent (subtle and elegant) */
+    --color-accent: oklch(0.88 0.11 80);
+    --color-accent-foreground: oklch(0.16 0 0);
+
+    /* Premium soft red (wine-inspired) */
+    --color-destructive: oklch(0.62 0.20 25);
+
+    /* Borders soft and minimal */
+    --color-border: oklch(0.92 0 0);
+    --color-input: oklch(0.92 0 0);
+
+    /* Highlight ring subtle */
+    --color-ring: oklch(0.72 0 0);
+
+    /* Charts – elegant muted jewel tones */
+    --color-chart-1: oklch(0.68 0.24 280);
+    --color-chart-2: oklch(0.74 0.18 160);
+    --color-chart-3: oklch(0.65 0.11 40);
+    --color-chart-4: oklch(0.70 0.18 300);
+    --color-chart-5: oklch(0.72 0.15 20);
+
+    /* Sidebar – clean and bright with luxury detail */
+    --color-sidebar: oklch(0.98 0 0);
+    --color-sidebar-foreground: oklch(0.22 0 0);
+
+    --color-sidebar-primary: oklch(0.82 0.12 85);
+    --color-sidebar-primary-foreground: oklch(0.16 0 0);
+
+    --color-sidebar-accent: oklch(0.88 0.11 80);
+    --color-sidebar-accent-foreground: oklch(0.16 0 0);
+
+    --color-sidebar-border: oklch(0.92 0 0);
+    --color-sidebar-ring: oklch(0.72 0 0);
+}
+
+[data-theme="dark-luxury"][data-mode="dark"] {
+    --color-radius: 0.625rem;
+
+    /* Deep obsidian base */
+    --color-background: oklch(0.13 0 0);
+    --color-foreground: oklch(0.97 0 0);
+
+    /* Premium layered surfaces */
+    --color-card: oklch(0.17 0 0);
+    --color-card-foreground: oklch(0.97 0 0);
+
+    --color-popover: oklch(0.17 0 0);
+    --color-popover-foreground: oklch(0.97 0 0);
+
+    /* Luxury gold primary (subtle chroma, high readability) */
+    --color-primary: oklch(0.78 0.13 85);
+    --color-primary-foreground: oklch(0.12 0 0);
+
+    /* Matte warm charcoal */
+    --color-secondary: oklch(0.24 0 0);
+    --color-secondary-foreground: oklch(0.96 0 0);
+
+    /* Muted rich middle-gray */
+    --color-muted: oklch(0.23 0 0);
+    --color-muted-foreground: oklch(0.68 0 0);
+
+    /* Accent uses toned-down royal gold */
+    --color-accent: oklch(0.74 0.10 80);
+    --color-accent-foreground: oklch(0.12 0 0);
+
+    /* Elegant destructive tone (deep wine red) */
+    --color-destructive: oklch(0.52 0.18 25);
+
+    /* Borders subtle luxury lines */
+    --color-border: oklch(1 0 0 / 12%);
+    --color-input: oklch(1 0 0 / 16%);
+
+    /* Soft highlight outline */
+    --color-ring: oklch(0.55 0 0);
+
+    /* Charts – premium muted jewel tones */
+    --color-chart-1: oklch(0.60 0.26 280);
+    --color-chart-2: oklch(0.72 0.20 160);
+    --color-chart-3: oklch(0.68 0.12 40);
+    --color-chart-4: oklch(0.58 0.18 300);
+    --color-chart-5: oklch(0.64 0.15 20);
+
+    /* Sidebar – darker and richer */
+    --color-sidebar: oklch(0.16 0 0);
+    --color-sidebar-foreground: oklch(0.97 0 0);
+
+    --color-sidebar-primary: oklch(0.78 0.13 85);
+    --color-sidebar-primary-foreground: oklch(0.12 0 0);
+
+    --color-sidebar-accent: oklch(0.74 0.10 80);
+    --color-sidebar-accent-foreground: oklch(0.12 0 0);
+
+    --color-sidebar-border: oklch(1 0 0 / 12%);
+    --color-sidebar-ring: oklch(0.55 0 0);
+}
