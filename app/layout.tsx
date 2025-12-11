@@ -4,6 +4,7 @@ import ThemeProvider from "@/themes/providers/ThemeProvider";
 import Header from "@/components/layout/header";
 import Toaster from "@/components/layout/sonner";
 import Footer from "@/components/layout/footer";
+import Script from "next/script";
 export const metadata: Metadata = {
   title: "Theme Picker",
   description: "Are you still find the best theme for you project, Try this.",
@@ -33,6 +34,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta httpEquiv="Cache-Control" content="public, max-age=31536000, immutable" />
+
       </head>
       <body
         className={`antialiased bg-background h-full`}
@@ -52,6 +54,21 @@ export default function RootLayout({
           </div>
           <Toaster />
         </ThemeProvider>
+
+        {/* --- Analytics --- */}
+        {process.env.NODE_ENV === "production" && (
+          <>
+            <Script src="https://www.googletagmanager.com/gtag/js?id=G-WVTLSYTS0N" strategy="afterInteractive" />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'G-WVTLSYTS0N');
+                `}
+            </Script>
+          </>
+        )}
       </body>
     </html>
   );
